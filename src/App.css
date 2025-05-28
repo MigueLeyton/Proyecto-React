@@ -1,0 +1,10 @@
+/* ----------------------------------
+   Estilos globales
+---------------------------------- */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #4d9f0c, #0c9f9f);
+  color: #333;
+}
+

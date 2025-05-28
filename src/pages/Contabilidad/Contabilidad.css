@@ -1,0 +1,54 @@
+.contabilidad-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eaf0f2;
+    min-height: 100vh;
+  }
+  
+  .contabilidad-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .contabilidad-header h1 {
+    font-size: 2.5rem;
+    color: #0c9f9f;
+  }
+  
+  .contabilidad-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .contabilidad-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    flex: 1 1 250px;
+    max-width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #0c9f9f;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  

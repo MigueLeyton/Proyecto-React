@@ -1,0 +1,79 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #0c9f9f;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+  
+  .login-form input {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .login-form input:focus {
+    border-color: #0c9f9f;
+    outline: none;
+  }
+  
+  .login-form button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #0c9f9f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #087a7a;
+  }
+  
+  .extras {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+  }
+  
+  .extras a {
+    color: #0c9f9f;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+  }
+  
+  .extras a:hover {
+    text-decoration: underline;
+  }
+  
