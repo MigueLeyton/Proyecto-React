@@ -130,3 +130,71 @@
 .acciones button:hover {
   background: #087c7c;
 }
+
+/* Estilo para el campo de selección de AFP */
+.formulario select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: white;
+  color: #333;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s, background-image 0.3s;
+  cursor: pointer;
+}
+
+/* Hover: cambia el color de la flecha */
+.formulario select:hover {
+  border-color: #0c9f9f;
+}
+
+/* Enfocado: efecto visual como en los inputs */
+.formulario select:focus {
+  outline: none;
+  border-color: #0c9f9f;
+  box-shadow: 0 0 0 3px rgba(12, 159, 159, 0.2);
+}
+
+
+/* Estilo para el contenedor de opciones de salud (CCAF/Fonasa) */
+.formulario .grupo-salud {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding: 0.8rem 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+/* Estilo del checkbox */
+.formulario .grupo-salud input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #0c9f9f;
+  cursor: pointer;
+}
+
+/* Estilo del label junto al checkbox */
+.formulario .grupo-salud label {
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+}
+
+/* Mejora visual si se quiere agrupar más campos personalizados */
+.formulario .grupo-salud:hover {
+  border-color: #0c9f9f;
+  background-color: #f0fefe;
+  transition: background-color 0.3s, border-color 0.3s;
+}

@@ -14,6 +14,11 @@
     font-size: 2.5rem;
     color: #0c9f9f;
   }
+
+  .contabilidad-header h2 {
+    font-size: 1.5 rem;
+    color: #0c9f9f;
+  }
   
   .contabilidad-header p {
     font-size: 1.2rem;
@@ -52,3 +57,94 @@
     color: #666;
   }
   
+  
+/* Tabla de reportes financieros (licencias médicas) */
+.tabla-reportes {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.tabla-reportes thead {
+  background-color: #0c9f9f;
+  color: white;
+  text-align: left;
+}
+
+.tabla-reportes th,
+.tabla-reportes td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: middle;
+}
+
+.tabla-reportes th {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.tabla-reportes tbody tr:hover {
+  background-color: #f4fafa;
+}
+
+.tabla-reportes td:last-child {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+
+/* Ajustes para responsividad en pantallas pequeñas */
+@media (max-width: 768px) {
+  .tabla-reportes {
+    font-size: 0.8rem;
+  }
+
+  .tabla-reportes th,
+  .tabla-reportes td {
+    padding: 0.6rem;
+  }
+}
+
+
+/* Modal general */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
